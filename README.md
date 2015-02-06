@@ -1,5 +1,9 @@
 # fullstack-nanodegree-movie-trailer
+
+
 Project 1 for Udacity's Full Stack Nanodegree
+
+
 A python script that generates a website displaying movies and their trailers.
 
 ##Requires:
