@@ -1,6 +1,10 @@
 import fresh_tomatoes
 import movie
 
+"""
+Create Movie Objects
+Movie data is hard coded here
+"""
 pulp_fiction = movie.Movie("Pulp Fiction",
                            "(1994)",
                            "What's in the case?",
@@ -38,4 +42,5 @@ holy_grail = movie.Movie("Monty Python and the Holy Grail",
                          "https://www.youtube.com/watch?v=LG1PlkURjxE")
 
 movies = [pulp_fiction, reservoir_dogs, true_romance, the_godfather, the_princess_bride, holy_grail]
+# Generate html page displaying movies
 fresh_tomatoes.open_movies_page(movies)
